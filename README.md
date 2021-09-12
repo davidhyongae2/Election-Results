@@ -10,7 +10,7 @@
 
 ## Resources
 - Data Source: election_results.csv
-- Software: Python 3.8
+- Python 3.8
 
 ## Results 
 -How many votes were cast in this congressional election?
