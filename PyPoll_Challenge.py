@@ -19,7 +19,9 @@ candidate_options = []
 candidate_votes = {}
 #ddgae: added candidate_vote2 since you need to seperate out candidates in three county versus candidates who are not part of list. 
 candidate_vote2 = {}
-
+candidate_votes3 = 0
+candidate_votes4 = 0
+candidate_votes5 = 0
 
 # 1: Create a county list and county votes dictionary.
 county_votes_dictionary = {'county1':'Arapahoe','county2':'Denver','county3':'Jefferson'}
@@ -93,10 +95,6 @@ with open(file_to_save, "w") as txt_file:
     print(election_results)
     txt_file.write(election_results)
 
-    #ddgae: you should put this at the top, as told this homework. 
-    candidate_votes3 = 0
-    candidate_votes4 = 0
-    candidate_votes5 = 0
 
     with open(file_to_load) as election_data:
         reader = csv.reader(election_data)
