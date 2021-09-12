@@ -1,6 +1,5 @@
 #Overview of Project 
-
-## Election_Analysis
+##Background 
     A Board of Elections employee has given you the following tasks to audit the local election.
 
 1. Calculate the total votes
