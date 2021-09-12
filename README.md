@@ -30,9 +30,9 @@
 </br> (https://github.com/davidhyongae2/Election-Results/blob/main/Figure4.png) </br>
 
 -Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
-<br> breakdown of who won, their vote count, and percentage of total votes </br>
+</br> breakdown of who won, their vote count, and percentage of total votes </br>
 </br> (https://github.com/davidhyongae2/Election-Results/blob/main/Figure5.png) </br>
  
 ## Summary
 This script can be used in the similar format by giving three columns of ID, county and candidates in different locations or years.
-It can also be used to determine who lost this election, based on the number of votes within this county. 
+</br> It can also be used to determine who lost this election, based on the number of votes within this county </br>
