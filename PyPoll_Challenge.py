@@ -99,6 +99,8 @@ with open(file_to_save, "w") as txt_file:
     with open(file_to_load) as election_data:
         reader = csv.reader(election_data)
         # 6a: Write a for loop to get the county from the county dictionary.
+	# I tried county dictionary, but it would return 'county1':'Arapahoe','county2':'Denver','county3':'Jefferson' to counts.
+	# used 'election data' to create a list to counts.
         for counts in reader:
         # 6b: Retrieve the county vote count
             if counts[1]=="Jefferson":
