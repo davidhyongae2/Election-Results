@@ -35,4 +35,4 @@
  
 ## Summary
 This script can be used in the similar format by giving three columns of ID, county and candidates in different locations or years.
-It can also be used to determine who lost this election this based on the least amount of votes within the county. 
+It can also be used to determine who lost this election, based on the number of votes within this county. 
