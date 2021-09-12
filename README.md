@@ -34,5 +34,5 @@
 </br> (https://github.com/davidhyongae2/Election-Results/blob/main/Figure5.png) </br>
  
 ## Summary
-This script can be used in a similar format by giving three columns of ID, county and candidates in different locations or years.
+This script can be used in a similar format by giving three columns of ID, county and candidates in different locations or year.
 </br> It can also be used to determine who lost this election, based on the number of votes within this county. </br>
