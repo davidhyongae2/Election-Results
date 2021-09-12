@@ -17,8 +17,7 @@ total_votes = 0
 # Candidate Options and candidate votes.
 candidate_options = []
 candidate_votes = {}
-#davidgae: added candidate_vote2 since I wanted to seperate out candidates in three county versus 
-#candidates who are not part of list. 
+#ddgae: added candidate_vote2 since you need to seperate out candidates in three county versus candidates who are not part of list. 
 candidate_vote2 = {}
 
 
@@ -54,8 +53,7 @@ with open(file_to_load) as election_data:
         # 3: Extract the county name from each row.
         county_list = row[1]
 
-        # If the candidate does not match any existing candidate add it to
-        # the candidate list
+        # If the candidate does not match any existing candidate add it to the candidate list
         if candidate_name not in candidate_options:
 
             # Add the candidate name to the candidate list.
@@ -69,15 +67,15 @@ with open(file_to_load) as election_data:
 
         # 4a: Write an if statement that checks that the
         # county does not match any existing county in the county list.
-        #davidgae: created an empty list for storing list of county not presented in the file.
+        #ddgae: created an empty list for storing list of county not presented in the file.
         temp_county = []
         county_dictionary = list(county_votes_dictionary.values())
         if county_list not in county_dictionary:
          #4b: Add the existing county to the list of counties.
          temp_county.append(county_list)
-             #4c: Begin tracking the county's vote count.
+         #4c: Begin tracking the county's vote count.
          candidate_votes2[candidate_name] = 0
-             #5: Add a vote to that county's vote count.
+         #5: Add a vote to that county's vote count.
          candidate_votes2[candidate_name] += 1
 
 
@@ -95,6 +93,7 @@ with open(file_to_save, "w") as txt_file:
     print(election_results)
     txt_file.write(election_results)
 
+    #ddgae: you should put this at the top, as told this homework. 
     candidate_votes3 = 0
     candidate_votes4 = 0
     candidate_votes5 = 0
