@@ -27,7 +27,7 @@
 
 -Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
 </br> Breakdown of the votes and percentage of candidates  </br>
-![Figure4]https://github.com/davidhyongae2/Election-Results/blob/main/Figure4.png) </br>
+![Figure4](https://github.com/davidhyongae2/Election-Results/blob/main/Figure4.png) </br>
 
 -Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
 </br> breakdown of who won, their vote count, and percentage of total votes </br>
