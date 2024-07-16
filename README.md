@@ -2,10 +2,10 @@
     A Board of Elections employee has given you the following tasks to audit the local election.
 
 1. Calculate the total votes
-2. Calcualte the County Votes
-3. Calculate larges County Turnout
+2. Calculate the County Votes
+3. Calculate large County Turnout
 4. Calculate the percentage and number of over for each candidate
-5. Determine the winner of the election based on populat vote.
+5. Determine the winner of the election based on the popular vote.
 
 
 ## Resources
@@ -34,5 +34,5 @@
 ![Figure5](https://github.com/davidhyongae2/Election-Results/blob/main/Figure5.png) </br>
  
 ## Summary
-This script can be used in a similar format by giving three columns of ID, county and candidates in different locations or year.
+This script can be used in a similar format by giving three columns of ID, county, and candidates in different locations or years.
 </br> It can also be used to determine who lost this election, based on the number of votes within this county. </br>
